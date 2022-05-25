@@ -18,10 +18,11 @@
     </header>
     <main>
         <div id="app" class="container">
-            <select name="genres" id="genres" v-model="selectedGenres" @change="search()">
-                <option value="" selected>All</option>
+            <select name="genres1" id="genres1" v-model="selectedGenres" @change="search()">
+                <option value="">All</option>
                 <option :value="genre" v-for="(genre, index) in genres" :key="index">{{genre}}</option>
             </select>
+
             <div class="row">
                 <div v-for="(disco, index) in dischi" :key="index" class="card-container text-center">
                     <img :src="disco.poster" alt="disco.title">

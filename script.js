@@ -3,7 +3,7 @@ const app = new Vue({
     data: {
         dischi: [],
         genres: [],
-        selectedGenres: [],
+        selectedGenres: '',
         apiPath: './server.php',
     },
     methods: {
