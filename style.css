@@ -24,6 +24,7 @@ main{
 }
 .row{
     padding-top: 50px;
+    gap: 30px;
 
 }
 .card-container{
